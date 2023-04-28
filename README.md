@@ -6,6 +6,7 @@ Data science can be applied in a wide range of domains, including business, heal
 With the increasing availability of data and computing power, data science has become an essential tool for businesses and organizations to gain a competitive edge and make informed decisions. It is also an exciting and rapidly evolving field with many career opportunities.
 
 ##Importance of Data Science
+
 Importance of data science in today's world:
 ◦ The amount of data being generated is growing exponentially.
 ◦ Data science provides valuable insights that can be used to drive innovation, improve processes, and 
