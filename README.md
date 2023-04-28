@@ -8,7 +8,9 @@ With the increasing availability of data and computing power, data science has b
 ## Importance of Data Science
 
 Importance of data science in today's world:
+
 ◦ The amount of data being generated is growing exponentially.
+
 ◦ Data science provides valuable insights that can be used to drive innovation, improve processes, and 
 make informed decisions.
 
