@@ -79,8 +79,133 @@ i = 1
 while i <= 5:
 
     print(i)
-    
     i += 1
+  
+## 6 Functions:
+Functions are used to group a set of statements that perform a specific task. In Python, you can define a function using the 'def' keyword. Here is an example:
+
+def my_function(name):
+
+    print("Hello, " + name)
+    
+my_function("John")
+
+# Numpy
+NumPy (Numerical Python) is a Python library for scientific computing that provides support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. It is a fundamental library for scientific computing in Python and is used in many areas such as machine learning, image processing, signal processing, and more.
+
+Some of the features of NumPy include:
+
+Multi-dimensional arrays: NumPy provides support for creating and manipulating multi-dimensional arrays and matrices.
+
+Fast mathematical operations: NumPy is designed for fast mathematical operations on arrays and matrices using optimized algorithms written in C or Fortran.
+
+Broadcasting: NumPy provides support for broadcasting, which allows arrays of different shapes to be operated on together.
+
+Linear algebra: NumPy provides support for linear algebra operations such as matrix multiplication, decomposition, and solving systems of linear equations.
+
+Fourier transforms: NumPy provides support for Fourier transforms and other spectral analysis functions.
+
+Random number generation: NumPy provides support for generating random numbers from a variety of distributions.
+
+Overall, NumPy is an essential library for scientific computing in Python, and its features make it powerful and versatile for a wide range of tasks.
+
+## 1 Creating a NumPy array:
+
+import numpy as np
+
+#### Create a 1D array
+arr1d = np.array([1, 2, 3, 4, 5])
+
+print(arr1d)
+
+#### Create a 2D array
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])
+
+print(arr2d)
+
+## 2 Arithmetic operations on NumPy arrays:
+import numpy as np
+
+#### Create two arrays
+arr1 = np.array([1, 2, 3])
+
+arr2 = np.array([4, 5, 6])
+
+#### Add the two arrays
+sum_arr = arr1 + arr2
+
+print(sum_arr)
+
+#### Multiply the two arrays element-wise
+prod_arr = arr1 * arr2
+
+print(prod_arr)
+
+## 3 Slicing and indexing NumPy arrays:
+import numpy as np
+
+#### Create a 1D array
+arr1d = np.array([1, 2, 3, 4, 5])
+
+#### Slice the array to get the first three elements
+arr_slice = arr1d[:3]
+
+print(arr_slice)
+
+#### Access a specific element of the array
+elem = arr1d[2]
+
+print(elem)
+
+#### Create a 2D array
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])
+
+#### Slice the array to get the second row
+row = arr2d[1, :]
+
+print(row)
+
+#### Access a specific element of the array
+elem = arr2d[0, 1]
+
+print(elem)
+
+## 4 Using built-in NumPy functions:
+import numpy as np
+
+#### Create a 1D array
+arr1d = np.array([1, 2, 3, 4, 5])
+
+#### Compute the mean of the array
+mean = np.mean(arr1d)
+
+print(mean)
+
+#### Compute the standard deviation of the array
+std_dev = np.std(arr1d)
+
+print(std_dev)
+
+#### Create a 2D array
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])
+
+#### Compute the maximum value of the array
+max_val = np.max(arr2d)
+
+print(max_val)
+
+#### Compute the determinant of the array
+det = np.linalg.det(arr2d)
+
+print(det)
+
+
+
+
+
+
+
+
 
 
 
