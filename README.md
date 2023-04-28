@@ -17,23 +17,21 @@ make informed decisions.
 # Python Basics
 Python is a high-level, general-purpose programming language that is widely used in many fields, including data science, machine learning, web development, and scientific computing. It was created by Guido van Rossum in the late 1980s and named after the Monty Python comedy group.
 
-## Variables: 
-
+## 1 Variables: 
 Variables are used to store data. In Python, you can declare a variable and assign a value to it like this:
 
 x = 10
 
 name = "Zahoor"
 
-## Print statement: 
-
+## 2 Print statement: 
 The print() function is used to display output to the console. You can print a variable or a string literal like this:
 
 print(x)
 
 print("Hello, world!")
 
-## Basic operations: 
+## 3 Basic operations: 
 Python supports basic mathematical operations like addition, subtraction, multiplication, division, and modulus. Here are some examples:
 
 a = 5
@@ -49,6 +47,40 @@ print(a * b)   # Output: 15
 print(a / b)   # Output: 1.6666666666666667
 
 print(a % b)   # Output: 2
+
+## 4 Conditional statements: 
+Conditional statements are used to execute different blocks of code based on certain conditions. In Python, you can use the if-else statement like this:
+
+age = 20
+
+if age >= 18:
+
+    print("You are an adult.")
+    
+else:
+
+    print("You are a minor.")
+    
+## 5 Loops: 
+Loops are used to execute a block of code multiple times. Python has two types of loops: 'for' and 'while'. Here are some examples:
+
+#### for loop
+
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+
+    print(fruit)
+
+#### while loop
+
+i = 1
+
+while i <= 5:
+
+    print(i)
+    
+    i += 1
 
 
 
