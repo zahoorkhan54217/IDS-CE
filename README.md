@@ -18,9 +18,39 @@ make informed decisions.
 Python is a high-level, general-purpose programming language that is widely used in many fields, including data science, machine learning, web development, and scientific computing. It was created by Guido van Rossum in the late 1980s and named after the Monty Python comedy group.
 
 ## Variables: 
+
 Variables are used to store data. In Python, you can declare a variable and assign a value to it like this:
+
 x = 10
+
 name = "Zahoor"
+
+## Print statement: 
+
+The print() function is used to display output to the console. You can print a variable or a string literal like this:
+
+print(x)
+
+print("Hello, world!")
+
+## Basic operations: 
+Python supports basic mathematical operations like addition, subtraction, multiplication, division, and modulus. Here are some examples:
+
+a = 5
+
+b = 3
+
+print(a + b)   # Output: 8
+
+print(a - b)   # Output: 2
+
+print(a * b)   # Output: 15
+
+print(a / b)   # Output: 1.6666666666666667
+
+print(a % b)   # Output: 2
+
+
 
 
 
