@@ -14,6 +14,15 @@ Importance of data science in today's world:
 ◦ Data science provides valuable insights that can be used to drive innovation, improve processes, and 
 make informed decisions.
 
+# Python Basics
+Python is a high-level, general-purpose programming language that is widely used in many fields, including data science, machine learning, web development, and scientific computing. It was created by Guido van Rossum in the late 1980s and named after the Monty Python comedy group.
+
+## Variables: 
+Variables are used to store data. In Python, you can declare a variable and assign a value to it like this:
+x = 10
+name = "Zahoor"
+
+
 
 
 
