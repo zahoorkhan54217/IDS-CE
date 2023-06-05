@@ -199,6 +199,61 @@ det = np.linalg.det(arr2d)
 
 print(det)
 
+# Pandas
+Pandas is a popular open-source library in Python that provides high-performance data manipulation and analysis tools. It is built on top of the NumPy library and is particularly well-suited for working with structured data.
+
+Here are some key features and functionalities of Pandas:
+
+## Data Structures: 
+Pandas introduces two primary data structures, namely Series and DataFrame.
+
+## Series: 
+A one-dimensional array-like object that can hold any data type. It is similar to a column in a spreadsheet or a database table.
+
+## DataFrame: 
+A two-dimensional tabular data structure that consists of rows and columns. It is similar to a spreadsheet or a SQL table and is the primary data structure used in Pandas. DataFrames allow efficient handling of structured data and provide various operations for data manipulation.
+
+## Data Manipulation: 
+Pandas provides a wide range of functions and methods for data manipulation, including:
+
+#### Reading and writing data: 
+Pandas can read data from various file formats, such as CSV, Excel, SQL databases, and more. It also supports writing data to these formats.
+
+#### Selection and filtering: 
+Pandas allows you to select specific data based on conditions, filter rows or columns, and perform boolean indexing.
+
+#### Data cleaning: 
+It provides tools for handling missing data, removing duplicates, and transforming data.
+
+#### Data transformation: 
+Pandas offers powerful functions for sorting, grouping, aggregating, merging, and reshaping data.
+
+#### Handling dates and times: 
+Pandas has extensive support for working with dates, times, and time series data.
+
+## Data Analysis: 
+Pandas includes various statistical and analytical functions for data exploration and analysis, such as:
+
+#### Descriptive statistics: 
+Pandas can calculate various statistics like mean, median, standard deviation, etc., for numerical columns.
+
+#### Data visualization: 
+It integrates well with other libraries, such as Matplotlib and Seaborn, to create informative plots and visualizations.
+
+#### Time series analysis: 
+Pandas provides tools for time-based operations, such as resampling, time shifting, and rolling window calculations.
+
+#### Integration with other libraries: 
+Pandas seamlessly integrates with other scientific computing libraries in Python, such as NumPy, Matplotlib, and scikit-learn. This allows you to leverage the strengths of each library for different tasks.
+
+
+
+
+
+
+
+
+
 
 
 
