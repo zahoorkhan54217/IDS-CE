@@ -281,6 +281,62 @@ plt.show()
 
 These examples demonstrate basic usage for univariate and bivariate analysis in Python using popular libraries. Remember that the specific implementation may vary depending on your dataset and the analysis goals you have in mind.
 
+# Linear Regression and Multiple Regression :
+ they are two commonly used techniques in statistical modeling and machine learning to understand the relationship between variables and make predictions. Here's an overview of each:
+ ## Linear Regression:
+ Linear regression is a technique used to model the relationship between a dependent variable and one independent variable. It assumes a linear relationship between the variables and aims to find the best-fit line that minimizes the sum of the squared differences between the observed data and the predicted values. The equation for a simple linear regression model is:
+ 
+ y = b0 + b1 * x
+ 
+### Example of Linear Regression in Python using Scikit-learn:
+
+from sklearn.linear_model import LinearRegression
+
+#### Prepare the data
+X = [[1], [2], [3], [4]]   //Independent variable
+
+y = [2, 4, 5, 8]          //Dependent variable
+
+#### Create and fit the linear regression model
+model = LinearRegression()
+
+model.fit(X, y)
+
+#### Predict a new value
+new_x = [[5]]
+
+predicted_y = model.predict(new_x)
+
+print(predicted_y)
+
+## Multiple Regression:
+Multiple regression extends the concept of linear regression to model the relationship between a dependent variable and multiple independent variables. It assumes a linear relationship between the dependent variable and a combination of independent variables. The equation for a multiple regression model is:
+
+y = b0 + b1 * x1 + b2 * x2 + ... + bn * xn
+
+### Example of Multiple Regression in Python using StatsModels:
+import statsmodels.api as sm
+
+import numpy as np
+
+#### Prepare the data
+X = [[1, 2], [2, 4], [3, 6], [4, 8]]  //Independent variables
+
+X = sm.add_constant(X)                // Add a column of ones for the intercept
+
+y = [3, 6, 9, 12]                     // Dependent variable
+
+#### Create and fit the multiple regression model
+model = sm.OLS(y, X)
+
+results = model.fit()
+
+#### Get the model summary
+print(results.summary())
+
+Both linear regression and multiple regression are powerful techniques for analyzing and predicting relationships between variables. The choice between them depends on the number of independent variables and the complexity of the relationship you want to model.
+
+
 
 
 
