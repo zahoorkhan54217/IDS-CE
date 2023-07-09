@@ -246,6 +246,41 @@ Pandas provides tools for time-based operations, such as resampling, time shifti
 #### Integration with other libraries: 
 Pandas seamlessly integrates with other scientific computing libraries in Python, such as NumPy, Matplotlib, and scikit-learn. This allows you to leverage the strengths of each library for different tasks.
 
+# Univariant and Bivariant
+## Univariate Analysis:
+Univariate analysis involves examining a single variable or feature in a dataset. This type of analysis aims to understand the distribution, central tendency, and spread of the variable. 
+### Example of Univariate Analysis in Python using Pandas and Matplotlib:
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#### Load data into a DataFrame
+data = pd.read_csv('data.csv')
+
+#### Compute basic statistics
+print(data.describe())
+
+#### Create a histogram
+plt.hist(data['variable'], bins=10)
+plt.show()
+
+## Bivariate Analysis:
+Bivariate analysis involves analyzing the relationship between two variables in a dataset. It aims to understand how the variables interact or correlate with each other.
+### Example of Bivariate Analysis in Python using Pandas and Seaborn:
+import pandas as pd
+import seaborn as sns
+
+#### Load data into a DataFrame
+data = pd.read_csv('data.csv')
+
+#### Compute correlation matrix
+correlation_matrix = data.corr()
+
+#### Create a heatmap of correlations
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.show()
+
+These examples demonstrate basic usage for univariate and bivariate analysis in Python using popular libraries. Remember that the specific implementation may vary depending on your dataset and the analysis goals you have in mind.
+
 
 
 
